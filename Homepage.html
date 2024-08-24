@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+
+    <style> /*I have added a navigation bar with help from w3schools - Ieuan */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #323;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #141;
+        }
+        
+        .active {
+          background-color: #05AA6D;
+        }
+        </style>
+
+
 </head>
+
+
 <body>
+
+    <ul>
+        <li><a href="#HOME">Home</a></li>
+        <li><a href="#SHOP">Shop</a></li>
+        <li><a href="#CONTACT">Contact</a></li>
+        <li style="float:right"><a class="active" href="#FAQ">FAQ</a></li>
+      </ul>
 
     <h1> Hello! </h1> <!-- Heading added by Robert -->
     
