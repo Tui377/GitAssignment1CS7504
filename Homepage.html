@@ -22,15 +22,12 @@
         }
 	
 	/* CSS for centering all text - added by Robert*/
-          h1, h2, h3, h4, h5, h6, p {
+	      .words {                     /* Last update FIXED CSS now it will center the text - added by robert*/
                   margin-top: 2rem;
-                  margin-left: 10rem;
-                  margin-inline-start: auto; 
-                  margin-inline-end: auto;
-                  justify-content: center;
-                  align-items: center;
+                  margin-right: auto;
+                  margin-left: auto;
+                  text-align: center;
                 }
-    
     /*I have added a navigation bar with help from w3schools - Ieuan */
         ul {
           list-style-type: none;
@@ -74,7 +71,10 @@
         <li style="float:right"><a class="active" href="#FAQ">FAQ</a></li>
       </ul>
 
-    <h1> Hello! </h1> <!-- Heading added by Robert -->
-	<p>Hi Robert, I hope you are doing well with your assignment. I am eating a sandwich as I write this!</p> <!-- Added by Ieuan -->
+      <!-- added a class "word" and style which changes the font - by robert -->
+
+    <h1 class = "words" style = "front-size: 2rem"> Hello! </h1> <!-- Heading added by Robert -->
+    <p class = "words" style = "front-size: 1rem">Hi Robert, I hope you are doing well with your assignment. I am eating a sandwich as I write this!</p> <!-- Added by Ieuan -->
+    <p class = "words" style = "front-size: 1rem"> It going alright.</p> <!-- Added by Robert --> 
 </body>
 </html>
